@@ -8,5 +8,9 @@
             "email": "shibalba1@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "fabpot/goutte": "^3.1",
+        "symfony/css-selector": "^3.0",
+        "curl/curl": "^1.3"
+    }
 }
