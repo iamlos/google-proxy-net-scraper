@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d5c88503219cb8cf80ba0c56f0915f2e",
-    "content-hash": "7d4ac85b374f24c000b67f6b419a7c3e",
+    "hash": "ee7231463220d934dd8a97158efba65a",
+    "content-hash": "e84f351d6acad1a45d6b35c38c04036c",
     "packages": [
         {
             "name": "curl/curl",
@@ -283,6 +283,31 @@
             "time": "2015-11-03 01:34:55"
         },
         {
+            "name": "gyvastis/proxy-scraper-interfaces",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Gyvastis/proxy-scraper-interfaces.git",
+                "reference": "1d006a18dc08a91f5c6ef5717cc70671ff255140"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Gyvastis/proxy-scraper-interfaces/zipball/1d006a18dc08a91f5c6ef5717cc70671ff255140",
+                "reference": "1d006a18dc08a91f5c6ef5717cc70671ff255140",
+                "shasum": ""
+            },
+            "type": "interface",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Vaidas",
+                    "email": "shibalba1@gmail.com"
+                }
+            ],
+            "description": "Interfaces for proxy scraper classes.",
+            "time": "2015-12-21 20:59:31"
+        },
+        {
             "name": "psr/http-message",
             "version": "1.0",
             "source": {
@@ -556,9 +581,11 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "gyvastis/proxy-scraper-interfaces": 20
+    },
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
