@@ -288,15 +288,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gyvastis/proxy-scraper-interfaces.git",
-                "reference": "1d006a18dc08a91f5c6ef5717cc70671ff255140"
+                "reference": "193890e68901d11837bfe33f639339e45e7e49ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gyvastis/proxy-scraper-interfaces/zipball/1d006a18dc08a91f5c6ef5717cc70671ff255140",
-                "reference": "1d006a18dc08a91f5c6ef5717cc70671ff255140",
+                "url": "https://api.github.com/repos/Gyvastis/proxy-scraper-interfaces/zipball/193890e68901d11837bfe33f639339e45e7e49ed",
+                "reference": "193890e68901d11837bfe33f639339e45e7e49ed",
                 "shasum": ""
             },
             "type": "interface",
+            "autoload": {
+                "psr-4": {
+                    "ProxyScraper\\": "src/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
@@ -305,7 +310,7 @@
                 }
             ],
             "description": "Interfaces for proxy scraper classes.",
-            "time": "2015-12-21 20:59:31"
+            "time": "2015-12-21 21:40:14"
         },
         {
             "name": "psr/http-message",
